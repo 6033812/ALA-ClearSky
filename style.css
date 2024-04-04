@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #0056b3;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 0;
+    }
+    .navbar, .hero {
+        flex-direction: column;
+    }
+}
