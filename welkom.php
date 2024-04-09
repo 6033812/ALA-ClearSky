@@ -2,25 +2,8 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Producten123 Galerij</title>
-    <style>
-        .banner {
-            text-align: center;
-            margin: 20px;
-        }
-        
-        .banner img {
-            width: 100%; /* Pas dit aan naar gewenste breedte */
-            height: auto; /* Behoudt aspectverhouding */
-            max-width: 300px; /* Maximale breedte van de afbeelding */
-        }
-        
-        .banner p {
-            margin-top: 10px;
-            font-size: 16px;
-            color: #333;
-        }
-    </style>
+    <title>Producten Galerij</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="navbar">
